@@ -23,7 +23,7 @@ body{
     width: 25rem;
     border-radius: 15px;
     overflow: hidden;
-    margin: 25px;
+    margin: 15px;
 }
                             /*END CONTENEDOR*/
 .imagen{
@@ -36,7 +36,7 @@ body{
                             /*START CARD*/
 .card{
     height: 450px;
-    padding: 35px;
+    padding: 40px;
     background-color: rgb(255, 255, 255);
     box-shadow: 50px 500px 500px 0 rgba(0, 0, 0, 0.2);
     border-radius: 0 0 20px 20px;
@@ -63,7 +63,7 @@ body{
 .card_info{
     background-color: hsl(225, 100%, 98%);
     padding: 20px 20px 15px;
-    margin-top: 25px;
+     
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -111,7 +111,7 @@ body{
     text-align: center;
     color: white;
     padding: 13px;
-    margin: 20px;
+    margin: 20px 0;
     font-weight: 700;
 }
 
@@ -120,7 +120,7 @@ body{
 }
 
 .btn_cancel{
-    margin-top: 30px;
+    margin: 25px;
     display: block;
     font-weight: 700;
     font-size: 15px;
