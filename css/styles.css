@@ -11,20 +11,24 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(227, 87%, 91%);
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
     height: 100vh;
 }
                       /*START CONTENEDOR*/
 .contenedor{
-    height: 670px;
-    width: 360px;
+    height: 630px;
+    width: 25rem;
     border-radius: 15px;
     overflow: hidden;
+    margin: 25px;
 }
                             /*END CONTENEDOR*/
 .imagen{
     width: 100%;
-    height: 27%;
+    height: 30%;
     background-image: url(../images/illustration-hero.svg);
     background-size: cover;
    
@@ -32,8 +36,8 @@ body{
                             /*START CARD*/
 .card{
     height: 450px;
-    padding: 25px 25px;
-    background-color: white;
+    padding: 35px;
+    background-color: rgb(255, 255, 255);
     box-shadow: 50px 500px 500px 0 rgba(0, 0, 0, 0.2);
     border-radius: 0 0 20px 20px;
 }
@@ -41,24 +45,24 @@ body{
 .card_tittle{
     text-align: center;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 800;
     font-family: 'Red Hat Display', sans-serif;
-    margin: 0;
+    margin: 5;
     height: 25px;
 }
 
 .card_descripcion{
     font-family: 'Krub', sans-serif;
     font-weight: 700;
-    font-size: 17px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 8px;
     text-align: center;
     color: hsl(223, 20%, 69%);
 }
 
 .card_info{
     background-color: hsl(225, 100%, 98%);
-    padding: 20px 20px 25px;
+    padding: 20px 20px 15px;
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
@@ -68,9 +72,10 @@ body{
 
 .card_plan{
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
     font-weight: 700;
     margin: 0;
-    padding-right: 35px;
+    padding-right: 70px;
 }
 
 .card_price{
@@ -78,12 +83,14 @@ body{
     font-weight: 600;
     font-family: 'Krub', sans-serif;
     display: block;
-    font-size: 15px;
-}                             /*END CARD*/
+    font-size: 14px;
+}  
+
+                        /*END CARD*/
 
 .change{                       /*START CHANGE*/
     font-family: 'Krub', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
     color: rgb(8, 8, 180);
 }
@@ -97,14 +104,14 @@ body{
     display: block;
     text-decoration: none;
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     border-radius: 15px;
     background-color: hsl(245, 75%, 52%);
     box-shadow: 0px 15px 15px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
     color: white;
-    padding: 17px;
-    margin: 30px 0;
+    padding: 13px;
+    margin: 20px;
     font-weight: 700;
 }
 
@@ -113,10 +120,10 @@ body{
 }
 
 .btn_cancel{
-    margin-top: 10px;
+    margin-top: 30px;
     display: block;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     text-decoration: none;
     color: hsl(224, 23%, 55%);
